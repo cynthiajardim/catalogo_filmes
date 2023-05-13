@@ -1,0 +1,77 @@
+*{
+    margin: auto 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+main {
+    background-color: #a3ffac;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+article{
+    background-color: antiquewhite;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    width: 948px;
+}
+
+.faixa{
+    /*background-color: black;*/
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+article > img{
+    width: 40%;
+}
+
+.infos{
+    display: flex;
+}
+
+.infos small{
+    margin-right: 8px;
+}
+
+.resumo{
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+}
+
+.avaliacoes{
+    margin-top: 40px;
+}
+
+.avaliacao-estrela{
+    display: flex;
+}
+
+.estrelas{
+    margin-left:10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
