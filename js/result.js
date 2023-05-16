@@ -51,11 +51,11 @@ const preencheElenco = elenco => {
 
 const preencheFaixa = classificacao => {
     if(classificacao <= 14)
-        return `<span class="faixa" style="background-color: green">14</span>`;
+        return `<span class="faixa" style="background-color: green">${classificacao}</span>`;
     else if(classificacao < 18)
-        return `<span class="faixa" style="background-color: yellow">14</span>`;
+        return `<span class="faixa" style="background-color: yellow">${classificacao}</span>`;
     else 
-        return `<span class="faixa" style="background-color: black">14</span>`;
+        return `<span class="faixa" style="background-color: black">${classificacao}</span>`;
 }
 
 const retornaQtdEstrelas = opinioes => {
