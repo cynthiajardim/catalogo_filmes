@@ -32,21 +32,24 @@ const model = `<article class="card" id="cardFilme">
                 </article>`;
 
 const preencheGeneros = generos => {
-    let gens = '';
+    return generos.join(",");
+    /*let gens = '';
     for(genero of generos){
         gens += genero+",";
     }
 
-    return gens.substring(0, gens.length - 1);
+    return gens.substring(0, gens.length - 1);*/
 }
 
 const preencheElenco = elenco => {
-    let atores = '';
+    //console.log(elenco.join(","));
+    return elenco.join(",");
+    /*let atores = '';
     for(ator of elenco){
         atores += ator+",";
     }
 
-    return atores.substring(0, atores.length - 1);
+    return atores.substring(0, atores.length - 1);*/
 }
 
 const preencheFaixa = classificacao => {
